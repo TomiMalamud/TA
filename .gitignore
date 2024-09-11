@@ -1,0 +1,65 @@
+# C++ gitignore
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+Debug/
+Release/
+
+# IDE specific files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Octave gitignore
+# Octave session info
+octave-workspace
+
+# Octave crash dumps
+octave-core
+
+# MEX-files
+*.mex*
+
+# Figures
+*.fig
+
+# Octave data files
+*.mat
+
+# Octave temporary files
+*.asv
+*.m~
+
+# Common editor backup files
+*~
+*.bak
+*.swp
