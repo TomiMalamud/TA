@@ -8,6 +8,9 @@ Este repositorio tiene los 3 scripts de octave que hacen falta para cada caso. S
 
 Son del tipo:
 > Un sistema OUVW ha sido **trasladado** un vector p = (-2.00, -9.00, 0.00) con respecto al sistema 0XYZ, y **posteriormente girado** 46.00º alrededor del eje 0Y.
+> Calcular las coordenadas (rx, ry, rz) del vector r con coordenadas ruvw = (-2.00, -5.00, -5.00)
+
+
 
 O sea, primero se traslada y luego se rota (o se gira, es lo mismo). La clave está en que el orden es: `R * T`
 
@@ -38,6 +41,7 @@ rxyz = T_R * ruvw
 
 Son del tipo:
 > Un sistema OUVW ha sido **girado** -163.00º alrededor del eje 0X, y **posteriormente trasladado** un vector p = (-9.00, -1.00, -3.00) con respecto al sistema 0XYZ.
+> Calcular las coordenadas (rx, ry, rz) del vector r con coordenadas ruvw = (-6.00, 0.00, -9.00)
 
 
 O sea, primero se rota y luego se traslada.
@@ -70,6 +74,7 @@ rxyz = T_R * ruvw
 
 Son del tipo:
 > Un sistema OUVW ha sido girado 100.00º alrededor del eje 0X,y posteriormente trasladado un vector p1 = (-5.00, -5.00, -6.00), y luego ha sido girado -4.00º alrededor del eje 0Z y trasladado un vector p2 = (-4.00, -4.00, -1.00) con respecto al sistema 0XYZ.
+> Calcular las coordenadas (rx, ry, rz) del vector r con coordenadas ruvw = (-2.00, -3.00, -6.00)
 
 En este caso se toman los mismos conceptos que en los casos anteriores. El código común para este caso es el siguiente:
 
