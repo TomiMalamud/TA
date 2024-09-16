@@ -1,0 +1,6 @@
+function Rz = rotzr(angulo)
+% ángulos en radianes.
+    Rz = [cos(angulo) -sin(angulo) 0;...
+                sin(angulo) cos(angulo) 0;...
+                0 0 1];            
+end

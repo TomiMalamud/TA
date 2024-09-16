@@ -1,8 +1,8 @@
 close all; clear all; clc
 
-p = [-4 -7 -2]; % Traslación
-theta = -57; % Rotación alrededor de z
-ruvw = [-7.00 -4.00 -3.00 1]'; % Vector asociado a 0UVW
+p = [-2.00, -6.00, -3.00]; % Traslación
+theta = 93; % Rotación alrededor de z
+ruvw = [-8.00, -2.00, -9.00 1]'; % Vector asociado a 0UVW
 
 %% Matriz traslación
 T = [eye(3) p';...
