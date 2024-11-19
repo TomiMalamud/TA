@@ -1,31 +1,4 @@
-# C++ gitignore
-# Compiled object files
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
 
 # Build directories
 build/
@@ -63,3 +36,6 @@ octave-core
 *~
 *.bak
 *.swp
+
+# macOS specific files
+.DS_Store
