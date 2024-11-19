@@ -12,7 +12,9 @@ T = [eye(3) p';...
 R = [rotz(theta) [0; 0; 0];...
     0 0 0 1];
 
-%% Rotación y después Traslación
-T_R = T*R; % contraintuitivo pero es así
+
+T_R = T*R;
 
 rxyz = T_R * ruvw
+
+
